@@ -34,7 +34,7 @@ if (document.body.clientWidth > 992) {
                 borderRadius: 5 + 'px',
                 right: 60 + 'px',
                 nekoImg: "https://s2.loli.net/2024/10/31/RPhyQZgvju42NnL.png",
-                // hoverMsg: "喵喵喵~",
+                hoverMsg: "喵?",
                 color: "#6f42c1",
                 during: 500,
                 blog_body: "body",
