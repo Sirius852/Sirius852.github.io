@@ -1,11 +1,1 @@
-hexo.extend.generator.register('random', function (locals) {
-    const config = hexo.config.random || {}
-    const posts = []
-    for (const post of locals.posts.data) {
-        if (post.random !== false) posts.push(post.path)
-    }
-    return {
-        path: config.path || 'js/random.js',
-        data: `var posts=${JSON.stringify(posts)};function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};`
-    }
-})
+var posts=["2024/10/30/hello-world/","2024/10/30/Windows强制虚拟内存设置生效/"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
